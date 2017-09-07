@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+{% block content %}
+<div class="container">
+
+<div class="col-md-6">
+    <h2>name :  {{ username }}</h2>
+    <br>
+    <h4>email :   {{ email }}</h4>
+    <br>
+    <h4> password : {{ password }}</h4>
+
+
+
+</div>
+
+
+
+    </div>
+<style>
+    .container{
+        padding: 40px;
+    }
+</style>
+
+
+{% endblock %}

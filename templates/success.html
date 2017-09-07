@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+{% block content %}
+<div class="container">
+<div class="col-md-6 center">
+<h2>Hello {{ username }}</h2>
+    <a href="/accounts/profile/"><h3>Continue to your profile  </h3></a>
+</div>
+</div>
+<style>
+    .container{
+        padding: 50px;
+    }
+</style>
+
+{% endblock %}
